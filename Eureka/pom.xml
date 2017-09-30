@@ -102,6 +102,8 @@
 			        <imageName>${project.name}:${project.version}</imageName>
 			        <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
 			        <skipDockerBuild>false</skipDockerBuild>
+			        <dockerHost>http://192.168.1.40:2375</dockerHost>
+        			<!-- <dockerCertPath>C:\Users\Administrator\.docker\machine\machines\default</dockerCertPath> -->
 			        <resources>
 			            <resource>
 			                <directory>${project.build.directory}</directory>
